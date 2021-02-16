@@ -16,7 +16,7 @@ int images[]={R.drawable.a,R.drawable.b,R.drawable.c};
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         g1=(GridView)findViewById(R.id.g1);
-        Toast.makeText(this,"Helloworld",Toast.LENGTH_LONG).show();
+//        Toast.makeText(this,"Helloworld",Toast.LENGTH_LONG).show();
     }
 
 
