@@ -6,11 +6,12 @@
     tools:context=".MainActivity">
 
     <GridView
-        android:id="@+id/g1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:id="@+id/g1"
+        android:numColumns="3"
+        android:columnWidth="100dp"
         android:gravity="center"
-        android:numColumns="auto_fit" />
+        android:layout_margin="100dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
