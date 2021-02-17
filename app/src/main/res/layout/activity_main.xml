@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:id="@+id/g1"
         android:numColumns="3"
-        android:columnWidth="10dp"
+        android:columnWidth="100dp"
         android:gravity="center"
         android:layout_margin="100dp" />
 
